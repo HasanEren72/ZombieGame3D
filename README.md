@@ -5,10 +5,10 @@
  düşmanlar zombiler olacaktır. Oyuncu bu düşmanlardan kurtulmak için mücadele edecektir.
 
 # Oyun akış diagramı:
-![diagram](https://github.com/HasanEren72/ZombieGame3D/blob/main/Images/Diagram.png)
+![diagram](https://github.com/HasanEren72/ZombieGame3D/blob/main/Sprites/Diagram.png)
 
 # LEVEL1:
-![diagram](https://github.com/HasanEren72/ZombieGame3D/blob/main/Images/BackGround.jpeg)
+![levelImage](https://github.com/HasanEren72/ZombieGame3D/blob/main/Sprites/BackGround.jpeg)
 
 # Yöntem ve Metodlar
 Unity diğer oyun motorlarına kıyasla daha işlevsel ve çoklu platformlara yönelik Oyun
