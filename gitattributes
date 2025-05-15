@@ -1,0 +1,36 @@
+# Unity
+*.meta text
+*.unity text
+*.prefab text
+*.mat text
+*.anim text
+*.controller text
+*.mask text
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.psd binary
+
+# Audio
+*.mp3 binary
+*.ogg binary
+*.wav binary
+
+# 3D models
+*.fbx binary
+*.obj binary
+*.blend binary
+
+# Fonts
+*.ttf binary
+*.otf binary
+
+# Enforce LF line endings for scripts
+*.cs text eol=lf
+
+# General text files
+*.txt text
+*.md text

@@ -1,0 +1,1 @@
+Dosyayı C:\xampp\htdocs yoluna atın.
