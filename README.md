@@ -7,8 +7,8 @@
 # Oyun akış diagramı:
 ![diagram](https://github.com/HasanEren72/ZombieGame3D/blob/main/Images/Diagram.png)
 
-# Oyun 2.Bölüm:
-![diagram](https://github.com/HasanEren72/ZombieGame3D/blob/main/Images/2.bolum.png)
+# LEVEL1:
+![diagram](https://github.com/HasanEren72/ZombieGame3D/blob/main/Images/BackGround.jpeg)
 
 # Yöntem ve Metodlar
 Unity diğer oyun motorlarına kıyasla daha işlevsel ve çoklu platformlara yönelik Oyun
