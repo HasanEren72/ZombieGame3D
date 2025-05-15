@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{10E90213-8B9F-82B0-588E-9689224C26B8}</ProjectGuid>
+    <ProjectGuid>{2DD9DC81-AC95-6151-0703-6017F613563A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>ColoredHeaderCreator.Editor</AssemblyName>
@@ -780,7 +780,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="ColoredHeaderCreator.csproj">
-      <Project>{E3A4A4CD-4CB4-4031-1C0F-0DA7908E7E98}</Project>
+      <Project>{E02C50FF-89BD-9B91-43BB-31AAF0BA2F47}</Project>
       <Name>ColoredHeaderCreator</Name>
     </ProjectReference>
   </ItemGroup>

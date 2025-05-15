@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{54BD44CA-EE84-235E-459D-D3F68B745802}</ProjectGuid>
+    <ProjectGuid>{E11343A1-9C5E-2646-E3FF-87E4DD0765F8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>EnhancedHierarchyEditor</AssemblyName>

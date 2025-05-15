@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E3A4A4CD-4CB4-4031-1C0F-0DA7908E7E98}</ProjectGuid>
+    <ProjectGuid>{E02C50FF-89BD-9B91-43BB-31AAF0BA2F47}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>ColoredHeaderCreator</AssemblyName>

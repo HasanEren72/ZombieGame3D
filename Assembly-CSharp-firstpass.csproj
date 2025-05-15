@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{45D00FC1-D9A6-B623-62EE-DA063963E219}</ProjectGuid>
+    <ProjectGuid>{AEF7C620-39BB-4282-1D2F-9825AEE1B333}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -54,12 +54,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="C:\UnityProjects\Zombie_Game\Library\PackageCache\com.unity.entities@0.51.1-preview.21\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.SystemGenerator.dll" />
-    <Analyzer Include="C:\UnityProjects\Zombie_Game\Library\PackageCache\com.unity.entities@0.51.1-preview.21\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.LambdaJobs.dll" />
-    <Analyzer Include="C:\UnityProjects\Zombie_Game\Library\PackageCache\com.unity.entities@0.51.1-preview.21\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.JobEntity.dll" />
-    <Analyzer Include="C:\UnityProjects\Zombie_Game\Library\PackageCache\com.unity.entities@0.51.1-preview.21\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.Sample.dll" />
-    <Analyzer Include="C:\UnityProjects\Zombie_Game\Library\PackageCache\com.unity.entities@0.51.1-preview.21\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.Common.dll" />
-    <Analyzer Include="C:\UnityProjects\Zombie_Game\Library\PackageCache\com.unity.entities@0.51.1-preview.21\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.AuthoringComponent.dll" />
+    <Analyzer Include="C:\Users\User\OneDrive\Belgeler\GitHub\ZombieGame\Library\PackageCache\com.unity.entities@0.51.1-preview.21\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.SystemGenerator.dll" />
+    <Analyzer Include="C:\Users\User\OneDrive\Belgeler\GitHub\ZombieGame\Library\PackageCache\com.unity.entities@0.51.1-preview.21\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.LambdaJobs.dll" />
+    <Analyzer Include="C:\Users\User\OneDrive\Belgeler\GitHub\ZombieGame\Library\PackageCache\com.unity.entities@0.51.1-preview.21\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.JobEntity.dll" />
+    <Analyzer Include="C:\Users\User\OneDrive\Belgeler\GitHub\ZombieGame\Library\PackageCache\com.unity.entities@0.51.1-preview.21\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.Sample.dll" />
+    <Analyzer Include="C:\Users\User\OneDrive\Belgeler\GitHub\ZombieGame\Library\PackageCache\com.unity.entities@0.51.1-preview.21\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.Common.dll" />
+    <Analyzer Include="C:\Users\User\OneDrive\Belgeler\GitHub\ZombieGame\Library\PackageCache\com.unity.entities@0.51.1-preview.21\Unity.Entities\SourceGenerators\Unity.Entities.SourceGen.AuthoringComponent.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
@@ -935,15 +935,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="ColoredHeaderCreator.csproj">
-      <Project>{E3A4A4CD-4CB4-4031-1C0F-0DA7908E7E98}</Project>
+      <Project>{E02C50FF-89BD-9B91-43BB-31AAF0BA2F47}</Project>
       <Name>ColoredHeaderCreator</Name>
     </ProjectReference>
     <ProjectReference Include="ColoredHeaderCreator.Editor.csproj">
-      <Project>{10E90213-8B9F-82B0-588E-9689224C26B8}</Project>
+      <Project>{2DD9DC81-AC95-6151-0703-6017F613563A}</Project>
       <Name>ColoredHeaderCreator.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="EnhancedHierarchyEditor.csproj">
-      <Project>{54BD44CA-EE84-235E-459D-D3F68B745802}</Project>
+      <Project>{E11343A1-9C5E-2646-E3FF-87E4DD0765F8}</Project>
       <Name>EnhancedHierarchyEditor</Name>
     </ProjectReference>
   </ItemGroup>
