@@ -1,15 +1,15 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/gTiETg9a)
- # Unity 3D FPS Zombi Oyunu
+# Unity 3D FPS Zombi Oyunu
 
 # Projenin Amacı 
  Bu çalışmamda amaç , Unity Oyun Geliştirme Platformu kullanılarak Windows platformunda çalışan eğlenceli bir 3d Fps  hayatta kalma oyunu yaratmaktır. Oyunda 
  düşmanlar zombiler olacaktır. Oyuncu bu düşmanlardan kurtulmak için mücadele edecektir.
 
+# Oyun akış diagramı:
+![diagram](https://github.com/HasanEren72/ZombieGame3D/blob/main/Images/Diagram.png)
 
 # Oyun 2.Bölüm:
-![diagram](https://github.com/HasanEren72/ZombieGame/blob/main/images/2.bolum.png)
-# Oyun akış diagramı:
-![diagram](https://github.com/HasanEren72/ZombieGame/blob/main/images/D%C4%B0AGRAM.png)
+![diagram](https://github.com/HasanEren72/ZombieGame3D/blob/main/Images/2.bolum.png)
+
 # Yöntem ve Metodlar
 Unity diğer oyun motorlarına kıyasla daha işlevsel ve çoklu platformlara yönelik Oyun
 geliştirmeyi sağlayan güçlü bir oyun motorudur.
