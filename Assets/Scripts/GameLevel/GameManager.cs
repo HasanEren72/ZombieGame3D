@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.Networking;
 
-public class Level1Manager : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
     [Header("UI Elemanları")]
     [SerializeField] private TextMeshProUGUI CanText;

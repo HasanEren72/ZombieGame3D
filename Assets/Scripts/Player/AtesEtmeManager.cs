@@ -62,13 +62,13 @@ public class AtesEtmeManager : MonoBehaviour
 
     PlayerControl playerControl;
     AnimationManager animationManager;
-    Level1Manager level1Manager;
+    GameManager gameManager;
 
     private void Awake()
     {
         playerControl = gameObject.GetComponent<PlayerControl>();
         animationManager = Object.FindObjectOfType<AnimationManager>();
-        level1Manager = Object.FindObjectOfType<Level1Manager>();   
+        gameManager = Object.FindObjectOfType<GameManager>();   
     }
     void Start()
     {  
@@ -260,7 +260,7 @@ public class AtesEtmeManager : MonoBehaviour
 
     public void AtesEtme()
     {
-        if (Sarjor <= 0 || isReloading || !playerControl.hayattaMi || level1Manager.pausePanelinde) return;
+        if (Sarjor <= 0 || isReloading || !playerControl.hayattaMi || gameManager.pausePanelinde) return;
 
         Vector3 baslangicNoktasi = Camera.main.transform.position;
         Vector3 yon = Camera.main.transform.forward;

@@ -141,7 +141,7 @@
     <Compile Include="Assets\Scripts\LoginLevel\Login.cs" />
     <Compile Include="Assets\Textures\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Efektler\Particlecollection_Free samples\Plugins\Effect\Script\EffectDemo.cs" />
-    <Compile Include="Assets\Scripts\GameLevel\Level1Manager.cs" />
+    <Compile Include="Assets\Scripts\GameLevel\GameManager.cs" />
     <Compile Include="Assets\Efektler\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
     <Compile Include="Assets\Textures\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\Scripts\Enemys\zombi.cs" />
