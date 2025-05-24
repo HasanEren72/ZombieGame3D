@@ -121,22 +121,29 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public enum Bolge
+    {
+        Bolge1,
+        Bolge2,
+        Bolge3
+    }
+
     private Vector3 GetRandomPozisyon()
     {
-        int bolge = Random.Range(1, 4);
+        Bolge bolge = (Bolge)Random.Range(0, 3);
         float x = 0f, z = 0f;
 
         switch (bolge)
         {
-            case 1:
+            case Bolge.Bolge1:
                 x = Random.Range(Bolge1.x, Bolge1.y);
                 z = Random.Range(Bolge1.z, Bolge1.w);
                 break;
-            case 2:
+            case Bolge.Bolge2:
                 x = Random.Range(Bolge2.x, Bolge2.y);
                 z = Random.Range(Bolge2.z, Bolge2.w);
                 break;
-            case 3:
+            case Bolge.Bolge3:
                 x = Random.Range(Bolge3.x, Bolge3.y);
                 z = Random.Range(Bolge3.z, Bolge3.w);
                 break;
