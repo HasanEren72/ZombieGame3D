@@ -64,6 +64,8 @@ public class AtesEtmeManager : MonoBehaviour
     AnimationManager animationManager;
     GameManager gameManager;
 
+    public SilahType aktifSilah;
+
     private void Awake()
     {
         playerControl = gameObject.GetComponent<PlayerControl>();
@@ -111,18 +113,26 @@ public class AtesEtmeManager : MonoBehaviour
             animationManager.StopSetAnim("atesEt");  //animasyonu durdurur.
         }
     }
-    void silahSesiCal()
-    {
-        if (isReloading) return; // reload yapýlýyorsa ses çalma
 
-        if (tumSilahlar[0].activeSelf) //ump45 secili ise true dondurur
-            AudioManager.Instance.PlaySFX(ump45AtesSesi);
-        else if (tumSilahlar[1].activeSelf)
-            AudioManager.Instance.PlaySFX(ak47AtesSesi);
-        else if (tumSilahlar[2].activeSelf)
-            AudioManager.Instance.PlaySFX(M416AtesSesi);
-        else if (tumSilahlar[3].activeSelf)
-            AudioManager.Instance.PlaySFX(m16AtesSesi);                 
+    public void silahSesiCal()
+    {
+        if (isReloading) return;
+
+        switch (aktifSilah)
+        {
+            case SilahType.UMP45:
+                AudioManager.Instance.PlaySFX(ump45AtesSesi);
+                break;
+            case SilahType.AK47:
+                AudioManager.Instance.PlaySFX(ak47AtesSesi);
+                break;
+            case SilahType.M416:
+                AudioManager.Instance.PlaySFX(M416AtesSesi);
+                break;
+            case SilahType.M16:
+                AudioManager.Instance.PlaySFX(m16AtesSesi);
+                break;
+        }
     }
 
     void SarjorKontrol()
@@ -223,6 +233,10 @@ public class AtesEtmeManager : MonoBehaviour
             mevcutSilahlarListesi[i].SetActive(false);
         }
         mevcutSilahlarListesi[number].SetActive(true);
+
+        // Aktif silahýn typini güncelle
+        aktifSilah = mevcutSilahlarListesi[number].GetComponent<Silah>().silahTipi;
+
         index++;
     }
 
