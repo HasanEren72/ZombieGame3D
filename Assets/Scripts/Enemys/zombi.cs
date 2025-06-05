@@ -111,7 +111,11 @@ public class zombi : MonoBehaviour
     void Saldir()
     {
         zombiNavmesh.isStopped = true; // NavMesh'i durdur takip etme durur
-        transform.LookAt(hedefOyuncu.transform.position); //( Hedefe doğru döner ) zombi nesnesinin  hedefe bakmasini saglar. 
+
+        // Sadece yatay eksende bakış
+        Vector3 lookPos = hedefOyuncu.transform.position;
+        lookPos.y = transform.position.y; //player’ın Y pozisyonunu Enemy’nin mevcut Y pozisyonuna eşitliyoruz. yani burada y ekseninde yon bulma sıfırlandığı için duşman yukarı aşağı bakmayacak
+        transform.LookAt(lookPos);
 
         Canbar.SetActive(true);
 
