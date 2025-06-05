@@ -94,6 +94,7 @@
     <Compile Include="Assets\Scripts\Player\AtesEtmeManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerControl.cs" />
     <Compile Include="Assets\Textures\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\Scripts\Player\SilahType.cs" />
     <Compile Include="Assets\level2Objects\Scripts\PlayerController\LookWithMouse.cs" />
     <Compile Include="Assets\ddf.cs" />
     <Compile Include="Assets\Efektler\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
@@ -112,6 +113,7 @@
     <Compile Include="Assets\Textures\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\Efektler\WarFX\Scripts\CFX_LightIntensityFade.cs" />
     <Compile Include="Assets\Textures\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\Scripts\Player\Silah.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\FirstPersonAudio.cs" />
     <Compile Include="Assets\Textures\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\Efektler\Particlecollection_Free samples\Plugins\Effect\Script\TransformExtension.cs" />
@@ -151,8 +153,6 @@
     <Compile Include="Assets\Textures\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Efektler\WarFX\Demo\Assets\WFX_Demo_New.cs" />
     <Compile Include="Assets\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
-    <Compile Include="Assets\Scripts\Player\SilahType.cs" />
-    <Compile Include="Assets\Scripts\Player\Silah.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Efektler\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Blended Premmultiply.shader" />
